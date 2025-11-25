@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Your CSS variables */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+    /* ... rest of your variables */
+  }
+}
+
+@layer base {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-size: inherit;
+  }
+}
